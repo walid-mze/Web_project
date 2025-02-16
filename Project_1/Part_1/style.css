@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #111;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+.upper-bar{
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(39, 126, 64, 0.846);
+    padding-bottom: 13px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 6px;
+    padding: 60px;
+    padding-bottom: 80px;
+}
+
+.qst{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ans{
+    font-size: 20px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.time{
+    color: rgb(200, 81, 81);
+}
+.qst-num{
+    color: rgb(55, 168, 233);
+}
+.next{
+    background-color: rgb(39, 116, 240);
+    padding: 10px;
+    color: white;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid rgb(118, 155, 243);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.ans:hover{
+    background-color: rgb(204, 181, 144);
+}
+/* Styles pour la section de bienvenue */
+.start {
+    background: linear-gradient(135deg, #f6f9fc, #e9eff5);
+    border: 2px solid #ccc;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+.start div {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styles pour le bouton Start */
+.start-btn {
+    font-size: 18px;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #43a047;
+}
+/* Styles pour la section qui s'affiche à la fin du quiz - Result Page */
+.last-page {
+    background: linear-gradient(135deg, #fafafa, #eaeaea);
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.last-page div {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Styles pour la page de score */
+.score_page {
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    width: 60vh;
+    font-weight: bold;
+    font-size: larger;
+}
+.last-page{
+    width: 60vh;
+}
